@@ -1,0 +1,149 @@
+/* $color-text: #899AAE; */
+/* gray color */
+.notification {
+  position: fixed;
+  top: 70px;
+  right: 17px;
+  z-index: 9999;
+}
+.notification .has-news {
+  position: relative;
+  height: 64px;
+  float: left;
+  border-radius: 50%;
+  border: 12px solid rgba(0, 0, 0, 0.1);
+}
+.notification .has-news .notice {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ff0000;
+  padding: 3px;
+  font-size: 9px;
+  line-height: 1.2 !important;
+}
+.notification .dropdown-menu {
+  position: absolute;
+  top: 70px;
+  left: auto !important;
+  right: 0;
+  padding-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.notification .dropdown-menu .dropdown-arrow {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+.notification .dropdown-menu .what-news {
+  background: #3399ff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.notification .dropdown-menu > li > a {
+  border-bottom: solid 1px #DFDFDF;
+  width: 100%;
+  padding-top: 0;
+}
+.notification .btn-more {
+  background-color: #f54337;
+  color: #ffffff;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.icon-notification {
+  background-image: url("../img/icon-notification.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #1e191a;
+  position: relative;
+}
+
+#notification-dropdown {
+  width: 260px;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  border-radius: 0 !important;
+  padding: 0;
+  right: 5px;
+  left: auto;
+}
+
+#notification-dropdown li.notification-title {
+  position: relative;
+  color: white;
+  font-size: 15px;
+  padding: 20px 15px 15px 15px;
+  text-align: center;
+  background-color: #003867;
+}
+#notification-dropdown li.notification-item {
+  position: relative;
+  margin: 10px 0px;
+  border-right: 2px solid transparent;
+}
+#notification-dropdown li.notification-item:hover {
+  border-right: 2px solid #0066CB;
+}
+
+#notification-dropdown li.notification-title:before {
+  position: absolute;
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #003867 transparent;
+  right: 20px;
+  top: -6px;
+}
+
+.notification-icon {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  display: inline-block;
+  width: 52px;
+  background: url("https://wallstreetenglish.edu.vn/new/img/notification.png") no-repeat 0 0 transparent;
+  height: 50px;
+}
+
+.notification-icon.notification-icon-seminar {
+  background-position: 0px 0px;
+}
+
+.notification-icon.notification-icon-freetest {
+  background-position: 0 -50px;
+}
+
+.notification-icon.notification-icon-blog {
+  background-position: 0 -100px;
+}
+
+.notification-content {
+  padding-left: 60px;
+  white-space: normal;
+  text-align: left;
+}
+
+.notification-content .notification-title {
+  color: #51657e;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.notification-content .notification-description {
+  font-size: 13px;
+  color: black;
+}
